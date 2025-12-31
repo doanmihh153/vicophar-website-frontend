@@ -1,4 +1,4 @@
-# � Vicophar Vietnam - Premium Frontend Architecture
+# Vicophar Vietnam - Premium Frontend Architecture - REMAKE - NO CLEAN CODE
 
 ![Next.js 14+](https://img.shields.io/badge/Next.js%2014+-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
