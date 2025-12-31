@@ -15,7 +15,7 @@ Dự án được thiết kế theo tư duy **Product-First**, tập trung tối
 > [!NOTE]
 > So sánh trực quan sự lột xác về giao diện và trải nghiệm.
 
-| **✨ New Interface (Modern & Clean)** | **📼 Legacy Interface (Old)** |
+| **✨ New Interface (Modern & Clean)** – Built with Next.js & Tailwind CSS | **📼 Legacy Interface (Old)** - Built using WordPress |
 |:---------------------------:|:---------------------------:|
 | ![New Website](docs/website-new.gif) | ![Old Website](docs/website-old.gif) |
 | *Smooth Animations, Clean Layout, 100% Responsive* | *Basic Layout, Standard UX* |
