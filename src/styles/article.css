@@ -1,0 +1,297 @@
+/**
+ * Article Content Styling
+ * Styles for Tiptap JSON rendered content
+ */
+
+/* Typography */
+
+/* H1: Tiêu đề chính của bài viết (Heading level 1) */
+.article-content h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--color-vico-gray-900);
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+@media (min-width: 1280px) {
+    .article-content h1 {
+        font-size: 3rem;
+    }
+}
+
+/* H2: Tiêu đề mục lớn (Heading level 2) - Thường dùng cho các phần chính */
+.article-content h2 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.2 !important;
+    color: var(--color-vico-green);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 1280px) {
+    .article-content h2 {
+        font-size: 2.25rem;
+    }
+}
+
+/* H3: Tiêu đề mục nhỏ (Heading level 3) - Con của H2 */
+.article-content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.2 !important;
+    color: var(--color-vico-gray-800);
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+@media (min-width: 1280px) {
+    .article-content h3 {
+        font-size: 1.875rem;
+    }
+}
+
+/* P: Đoạn văn bản (Paragraph) */
+.article-content p {
+    font-size: 1.25rem;
+    color: var(--color-vico-gray-700);
+    line-height: 1.75;
+    margin-bottom: 1rem;
+}
+
+/* Lists: Danh sách */
+.article-content ul,
+.article-content ol {
+    margin-bottom: 0.5rem !important;
+    padding-left: 2rem !important;
+}
+
+/* UL: Danh sách không thứ tự (Unordered List) - Dùng bullet points */
+.article-content ul {
+    list-style-type: disc;
+}
+
+/* OL: Danh sách có thứ tự (Ordered List) - Dùng số 1, 2, 3... */
+.article-content ol {
+    list-style-type: decimal;
+}
+
+/* LI: Mục trong danh sách (List Item) */
+.article-content li {
+    font-size: 1.125rem;
+    color: var(--color-vico-gray-700);
+    line-height: 1.75;
+    margin-bottom: 0.5rem;
+}
+
+/* Images: Hình ảnh */
+
+/* Figure: Thẻ bao quanh hình ảnh và chú thích */
+.article-content figure {
+    margin: 2rem 0;
+}
+
+/* IMG: Thẻ hình ảnh */
+.article-content figure img {
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+/* Figcaption: Chú thích dưới hình ảnh */
+.article-content figcaption {
+    font-size: 1rem;
+    color: var(--color-vico-gray-600);
+    text-align: center;
+    margin-top: 0.75rem;
+    font-style: italic;
+}
+
+/* Blockquotes: Trích dẫn nội bật */
+.article-content blockquote {
+    border-left: 4px solid var(--color-vico-green); /* Đường kẻ xanh bên trái */
+    padding-left: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin: 2rem 0;
+    font-style: italic;
+    color: var(--color-vico-gray-700);
+    background-color: var(--color-vico-hover);
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.article-content blockquote p {
+    margin-bottom: 0;
+}
+
+/* Links: Đường dẫn liên kết (Thẻ a) */
+.article-content a {
+    color: var(--color-vico-green);
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.article-content a:hover {
+    color: var(--color-vico-green-dark);
+}
+
+/* Strong/Bold: In đậm (Thẻ strong hoặc b) */
+.article-content strong {
+    font-weight: 700;
+    color: var(--color-vico-gray-900);
+}
+
+/* Horizontal Rule: Đường kẻ ngang phân cách (Thẻ hr) */
+.article-content hr {
+    margin: 2rem 0;
+    border: 0;
+    border-top: 1px solid var(--color-vico-gray-200);
+}
+
+/* Code: Mã nguồn */
+
+/* Code inline: Mã trong dòng văn bản (Thẻ code) */
+.article-content code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+    background-color: var(--color-vico-hover);
+    padding: 0.2em 0.4em;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+    color: var(--color-vico-green-dark);
+}
+
+/* Pre: Khối mã nguồn (Thẻ pre) - Giữ nguyên định dạng */
+.article-content pre {
+    background-color: var(--color-vico-gray-900);
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto; /* Cho phép scroll ngang nếu code dài */
+    margin: 1.5rem 0;
+}
+
+.article-content pre code {
+    background-color: transparent;
+    padding: 0;
+    color: inherit;
+    font-size: 0.875rem;
+}
+
+/* Alignment: Căn chỉnh văn bản */
+.article-content .text-left {
+    text-align: left;
+}
+.article-content .text-center {
+    text-align: center;
+}
+.article-content .text-right {
+    text-align: right;
+}
+.article-content .text-justify {
+    text-align: justify; /* Căn đều 2 bên */
+}
+
+/* Video / Iframe / Embeds: Nhúng video (Youtube, Vimeo...) */
+.article-content iframe {
+    width: 100%;
+    aspect-ratio: 16/9; /* Tỷ lệ khung hình chuẩn 16:9 */
+    border-radius: 0.75rem;
+    margin: 2rem 0;
+}
+
+/* Emphasis/Italic: In nghiêng (Thẻ em hoặc i) */
+.article-content em {
+    font-style: italic;
+}
+
+/* Tables: Bảng dữ liệu */
+.article-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 1rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background: var(--color-vico-green-light);
+}
+
+/* Thead: Phần đầu bảng (Table Head) */
+.article-content thead {
+    background-color: var(--color-vico-green);
+    color: white;
+}
+
+/* TH: Ô tiêu đề của bảng (Table Header Cell) */
+.article-content thead th {
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1rem;
+    border-right: 2px solid var(--color-vico-white); /* Phân cách cột header */
+}
+
+.article-content thead th:last-child {
+    border-right: none;
+}
+
+/* TR: Dòng trong bảng (Table Row) */
+.article-content tbody tr {
+    border-bottom: 2px solid var(--color-vico-white);
+}
+
+/* Dòng chẵn (Even rows) - Tạo hiệu ứng zebra striping */
+.article-content tbody tr:nth-child(even) {
+    /* background-color: var(--color-vico-hover); */
+}
+
+/* Hover effect: Hiệu ứng khi di chuột qua dòng */
+.article-content tbody tr:hover {
+    /* background-color: var(--color-vico-green-light); */
+}
+
+/* TD: Ô dữ liệu (Table Data Cell) */
+.article-content tbody td {
+    padding: 0.875rem 1rem;
+    /* color: var(--color-vico-gray-700); */
+    line-height: 1.2;
+    border-right: 2px solid var(--color-vico-white); /* Phân cách cột body */
+}
+
+.article-content tbody td:last-child {
+    border-right: none;
+}
+
+/* Table wrapper: Bao quanh table để scroll ngang trên mobile */
+.article-content .table-wrapper {
+    overflow-x: auto;
+    margin: 2rem 0;
+    border-radius: 1rem;
+}
+
+.article-content .table-wrapper table {
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .article-content h1 {
+        font-size: 1.875rem;
+    }
+
+    .article-content h2 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .article-content h3 {
+        font-size: 1.25rem;
+        margin-top: 0.75rem;
+    }
+
+    .article-content p,
+    .article-content li {
+        font-size: 1rem;
+    }
+}

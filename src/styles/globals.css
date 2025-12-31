@@ -1,0 +1,15 @@
+/* ========================================
+   VICOPHAR VIETNAM - GLOBAL STYLES
+   Tailwind CSS v4 - CSS-first configuration
+   ======================================== */
+
+@import "tailwindcss";
+
+/* Import custom styles */
+@import "./base.css";
+@import "./components.css";
+@import "./components.css";
+@import "./embla-carousel.css";
+@import "./article.css";
+@import "./product-content.css";
+@import "./animations.css";

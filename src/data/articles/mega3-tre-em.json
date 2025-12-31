@@ -1,0 +1,994 @@
+{
+    "type": "doc",
+    "content": [
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Trong hành trình nuôi dạy con khôn lớn, dinh dưỡng luôn là mối quan tâm hàng đầu của các bậc phụ huynh. Giữa hàng ngàn dưỡng chất, Omega-3 nổi lên như một \"viên gạch vàng\" kiến tạo nên nền tảng trí tuệ và thể chất vượt trội cho trẻ. Tuy nhiên, không phải ai cũng hiểu tường tận về \"siêu dưỡng chất\" này. Bài viết dưới đây sẽ là cẩm nang toàn diện nhất, giải mã mọi bí ẩn về Omega-3 và cách bổ sung chuẩn khoa học từ các chuyên gia dinh dưỡng hàng đầu tại Vicophar."
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "attrs": { "level": 2 },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "1. Omega-3 là gì? Tại sao lại quan trọng đến thế?"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Omega-3 là một nhóm các axit béo chưa bão hòa đa (polyunsaturated fatty acids), đóng vai trò thiết yếu trong hoạt động của cơ thể. Điều đặc biệt là cơ thể con người không thể tự tổng hợp được loại axit béo này, mà bắt buộc phải nạp vào thông qua chế độ ăn uống hàng ngày. Có 3 loại Omega-3 chính mà chúng ta cần quan tâm:"
+                }
+            ]
+        },
+        {
+            "type": "table",
+            "content": [
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableHeader",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Loại Omega-3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableHeader",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Tên khoa học đầy đủ"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableHeader",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Vai trò chính & Nguồn gốc"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "marks": [{ "type": "bold" }],
+                                            "text": "ALA"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Alpha-Linolenic Acid"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Chủ yếu dùng làm năng lượng. Tìm thấy trong thực vật như hạt chia, hạt lanh, quả óc chó."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "marks": [{ "type": "bold" }],
+                                            "text": "EPA"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Eicosapentaenoic Acid"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Hỗ trợ giảm viêm, tốt cho tim mạch và tâm trạng. Nguồn gốc chủ yếu từ động vật biển."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "marks": [{ "type": "bold" }],
+                                            "text": "DHA"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Docosahexaenoic Acid"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Thành phần cấu trúc chính của não bộ và võng mạc mắt. Cực kỳ quan trọng cho trẻ em."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Đối với trẻ em, DHA là \"ngôi sao sáng\" nhất. Trong những năm đầu đời, não bộ của trẻ phát triển với tốc độ chóng mặt, đạt tới 80% kích thước não người lớn khi mới 2 tuổi. DHA chính là nguyên liệu chính để xây dựng nên mạng lưới nơ-ron thần kinh chằng chịt và phức tạp đó."
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "attrs": {
+                "src": "/imgs/home-page/gia-dinh-vui-ve.webp",
+                "alt": "Gia đình hạnh phúc bổ sung Omega 3",
+                "title": "Nền tảng sức khỏe vững chắc giúp trẻ tự tin khám phá thế giới"
+            }
+        },
+        {
+            "type": "heading",
+            "attrs": { "level": 2 },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "2. Lợi ích khoa học của Omega-3 đã được chứng minh"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Không chỉ là lời đồn thổi dân gian, hàng ngàn nghiên cứu khoa học trên thế giới đã khẳng định tác dụng vượt trội của Omega-3:"
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "attrs": { "level": 3 },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "2.1. Tăng chỉ số IQ và khả năng ngôn ngữ"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Một nghiên cứu tại Đại học Oxford (Anh) cho thấy trẻ em có nồng độ Omega-3 trong máu cao hơn thường có khả năng đọc hiểu và ghi nhớ tốt hơn. DHA giúp tăng cường tín hiệu dẫn truyền thần kinh, giúp trẻ "
+                },
+                {
+                    "type": "text",
+                    "marks": [{ "type": "bold" }],
+                    "text": "xử lý thông tin nhanh nhạy"
+                },
+                {
+                    "type": "text",
+                    "text": " và "
+                },
+                {
+                    "type": "text",
+                    "marks": [{ "type": "bold" }],
+                    "text": "tư duy logic sắc bén"
+                },
+                {
+                    "type": "text",
+                    "text": "."
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "attrs": { "level": 3 },
+            "content": [
+                { "type": "text", "text": "2.2. Cải thiện thị lực rõ rệt" }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "DHA chiếm tới 60% tỉ lệ axit béo trong võng mạc. Việc thiếu hụt DHA có thể dẫn đến suy giảm thị lực, tăng nguy cơ cận thị sớm ở trẻ nhỏ, đặc biệt là trong thời đại trẻ tiếp xúc nhiều với ánh sáng xanh từ thiết bị điện tử."
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "attrs": { "level": 3 },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "2.3. Hỗ trợ điều trị ADHD (Rối loạn tăng động giảm chú ý)"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Các nghiên cứu chỉ ra rằng trẻ mắc ADHD thường có mức Omega-3 trong máu thấp hơn bạn bè đồng trang lứa. Việc bổ sung đầy đủ Omega-3 có thể giúp:"
+                }
+            ]
+        },
+        {
+            "type": "bulletList",
+            "content": [
+                {
+                    "type": "listItem",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Giảm bớt sự bồn chồn, hiếu động thái quá."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "listItem",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Tăng khả năng tập trung vào nhiệm vụ cụ thể."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "listItem",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "Cải thiện chất lượng giấc ngủ, giúp trẻ ngủ sâu hơn."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "blockquote",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "\"Đầu tư vào dinh dưỡng cho não bộ trẻ trong 5 năm đầu đời là khoản đầu tư sinh lời nhất cho tương lai của con.\""
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "type": "text",
+                            "marks": [{ "type": "bold" }],
+                            "text": "- TS. BS Nguyễn Văn A, Chuyên gia Dinh dưỡng Vicophar"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "attrs": { "level": 2 },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "3. Tháp dinh dưỡng Omega-3: Ăn gì để con thông minh?"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Bổ sung qua đường ăn uống là cách tự nhiên và tốt nhất. Dưới đây là danh sách các \"siêu thực phẩm\" giàu Omega-3 mà mẹ nên thêm vào thực đơn ngay hôm nay:"
+                }
+            ]
+        },
+        {
+            "type": "table",
+            "content": [
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableHeader",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Nhóm thực phẩm"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableHeader",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Hàm lượng Omega-3 ước tính (trên 100g)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableHeader",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Gợi ý chế biến"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Cá hồi (Salmon)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        { "type": "text", "text": "~ 2260 mg" }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Áp chảo sốt cam, nấu cháo, ruốc cá hồi"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Cá trích (Herring)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        { "type": "text", "text": "~ 1700 mg" }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Kho nhạt, chiên giòn (cho bé lớn)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Hạt lanh (Flaxseeds)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "~ 2300 mg (mỗi muỗng canh)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Xay nhuyễn trộn sữa chua, rắc lên salad"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "tableRow",
+                    "content": [
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Quả óc chó (Walnuts)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "~ 2500 mg (mỗi 28g)"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tableCell",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "type": "text",
+                                            "text": "Ăn trực tiếp, làm sữa hạt, làm bánh"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "attrs": {
+                "src": "/imgs/home-page/vung-nguyen-lieu.webp",
+                "alt": "Nguyên liệu tự nhiên giàu dinh dưỡng",
+                "title": "Ưu tiên chọn thực phẩm tươi sống, nguồn gốc hữu cơ để đảm bảo an toàn"
+            }
+        },
+        {
+            "type": "heading",
+            "attrs": { "level": 3 },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "3.1. Gợi ý thực đơn giàu Omega-3 cho bé biếng ăn"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Nếu bé sợ mùi tanh của cá, mẹ hãy thử \"biến hóa\" với công thức sau:"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "marks": [{ "type": "bold" }, { "type": "italic" }],
+                    "text": "Món: Chả cá hồi rau củ sắc màu"
+                }
+            ]
+        },
+        {
+            "type": "orderedList",
+            "content": [
+                {
+                    "type": "listItem",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [{ "type": "bold" }],
+                                    "text": "Chuẩn bị:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " 200g phi lê cá hồi, 1/2 củ cà rốt băm nhỏ, hành tây, thì là, bột năng, gia vị bé."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "listItem",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [{ "type": "bold" }],
+                                    "text": "Thực hiện:"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "bulletList",
+                            "content": [
+                                {
+                                    "type": "listItem",
+                                    "content": [
+                                        {
+                                            "type": "paragraph",
+                                            "content": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Xay nhuyễn cá hồi cùng hành tây."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "listItem",
+                                    "content": [
+                                        {
+                                            "type": "paragraph",
+                                            "content": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Trộn đều cá với cà rốt, thì là và bột năng."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "listItem",
+                                    "content": [
+                                        {
+                                            "type": "paragraph",
+                                            "content": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Viên tròn, ấn dẹt và áp chảo vàng đều 2 mặt."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "listItem",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [{ "type": "bold" }],
+                                    "text": "Thành phẩm:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Chả cá thơm lừng, không tanh, màu sắc bắt mắt kích thích vị giác."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "attrs": { "level": 2 },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "4. Khi nào cần dùng thực phẩm bổ sung?"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Mặc dù thực phẩm tự nhiên là tốt nhất, nhưng thực tế cho thấy rất khó để trẻ ăn đủ lượng cá biển cần thiết mỗi tuần (ít nhất 2 khẩu phần). Ngoài ra, lo ngại về nhiễm độc thủy ngân trong cá biển sâu cũng khiến nhiều mẹ e ngại."
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Lúc này, thực phẩm bảo vệ sức khỏe bổ sung Omega-3 là giải pháp an toàn và tiện lợi. Các tiêu chí chọn sản phẩm chất lượng:"
+                }
+            ]
+        },
+        {
+            "type": "bulletList",
+            "content": [
+                {
+                    "type": "listItem",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [{ "type": "bold" }],
+                                    "text": "Độ tinh khiết:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Chọn loại dầu cá đã được chưng cất phân tử để loại bỏ kim loại nặng."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "listItem",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [{ "type": "bold" }],
+                                    "text": "Tỷ lệ DHA/EPA:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Với trẻ em, ưu tiên tỷ lệ DHA cao hơn."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "listItem",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "marks": [{ "type": "bold" }],
+                                    "text": "Mùi vị:"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Các loại siro, kẹo dẻo không tanh sẽ giúp bé dễ hợp tác hơn."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "attrs": {
+                "src": "/imgs/products/fe.png",
+                "alt": "Sản phẩm bổ sung Omega 3 Vicophar",
+                "title": "Sản phẩm bổ sung Omega-3 Vicophar đạt chuẩn GMP quốc tế"
+            }
+        },
+        {
+            "type": "heading",
+            "attrs": { "level": 2 },
+            "content": [
+                { "type": "text", "text": "5. Câu hỏi thường gặp (Q&A)" }
+            ]
+        },
+        {
+            "type": "heading",
+            "attrs": { "level": 3 },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "5.1. Uống Omega-3 vào lúc nào là tốt nhất?"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Omega-3 là vitamin tan trong dầu, vì vậy nó được hấp thụ tốt nhất khi dùng trong hoặc ngay sau bữa ăn có chứa chất béo. Buổi sáng là thời điểm lý tưởng để nạp năng lượng cho não bộ hoạt động cả ngày dài."
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "attrs": { "level": 3 },
+            "content": [
+                {
+                    "type": "text",
+                    "text": "5.2. Bổ sung liên tục hay theo đợt?"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Omega-3 cần thiết mỗi ngày. Tuy nhiên, nếu dùng liều cao điều trị thì cần theo chỉ định bác sĩ. Với liều dự phòng dinh dưỡng, có thể duy trì đều đặn hàng ngày như một phần của chế độ ăn."
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "attrs": { "level": 2 },
+            "content": [
+                { "type": "text", "text": "6. Video Kiến thức chuyên sâu" }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Để có cái nhìn trực quan hơn về quy trình sản xuất Omega-3 tinh khiết, mời quý vị theo dõi video tham quan nhà máy Vicophar:"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Video: Quy trình sản xuất đạt chuẩn GMP (Iframe Placeholder)"
+                }
+            ]
+        },
+        {
+            "type": "hardBreak"
+        },
+        {
+            "type": "paragraph",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Hy vọng bài viết đã cung cấp cho ba mẹ bức tranh toàn cảnh về tầm quan trọng của Omega-3. Đừng quên ghé thăm "
+                },
+                {
+                    "type": "text",
+                    "marks": [
+                        { "type": "link", "attrs": { "href": "/san-pham" } }
+                    ],
+                    "text": "Cửa hàng Vicophar"
+                },
+                {
+                    "type": "text",
+                    "text": " để tham khảo các giải pháp dinh dưỡng tối ưu cho bé yêu nhé!"
+                }
+            ]
+        }
+    ]
+}

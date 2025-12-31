@@ -1,0 +1,580 @@
+/* ========================================
+   VICOPHAR - THIẾT LẬP CƠ BẢN
+   Cấu hình thiết kế với @theme
+   ======================================== */
+
+@theme {
+    /* ========================================
+       ĐIỂM NGẮT - THIẾT KẾ RESPONSIVE
+       ======================================== */
+    --breakpoint-mobile: 320px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-desktop: 1040px;
+    --breakpoint-wide: 1280px;
+
+    /* ========================================
+       MÀU SẮC - HỆ THỐNG MÀU VICOPHAR
+       ======================================== */
+
+    /* Màu xanh lá - Màu thương hiệu chính */
+    --color-vico-green: #0db061;
+    --color-vico-green-dark: #006838;
+    --color-vico-green-light: #e7ffea;
+    --color-vico-green-hover: #00954d;
+
+    /* Màu đỏ - Màu nhấn */
+    --color-vico-red: #be1e2d;
+    --color-vico-red-light: #fee2e2;
+    --color-vico-red-gradient-start: #be1e2d;
+    --color-vico-red-gradient-end: #e92629;
+
+    /* Màu xanh dương - Màu phụ */
+    --color-vico-blue: #02509e;
+    --color-vico-blue-light: #dbeafe;
+
+    /* Màu cam - Badge "Bán chạy" */
+    --color-vico-orange: #f4831f;
+    --color-vico-orange-dark: #bf610d;
+
+    /* Màu vàng - Đánh giá sao */
+    --color-vico-yellow: #f6ae1a;
+
+    /* Màu xám - Màu trung tính */
+    --color-vico-gray-50: #f9fafb;
+    --color-vico-gray-100: #f3f4f6;
+    --color-vico-gray-200: #e5e7eb;
+    --color-vico-gray-400: #9ca3af;
+    --color-vico-gray-600: #54595f;
+    --color-vico-gray-900: #111827;
+
+    /* Màu trắng */
+    --color-vico-white: #ffffff;
+
+    /* Màu chữ */
+    --color-vico-text: #111;
+    --color-vico-text-secondary: #374151;
+    --color-vico-text-light: #6b7280;
+    --color-vico-text-white: #ffffff;
+
+    /* Màu tương tác */
+    --color-vico-hover: #f7f7f7;
+    --color-vico-focus: #0db061;
+
+    /* ========================================
+       CỠ CHỮ - APPLE 4px GRID (CHIA HẾT CHO 4)
+       Tất cả sizes: 12, 16, 20, 24, 32, 40, 48...
+       ======================================== */
+
+    /* Tiêu đề - Apple 4px Grid */
+    --font-size-vico-h1-mobile: 2rem; /* 32px ✅ */
+    --font-size-vico-h1-desktop: 2.5rem; /* 40px ✅ */
+
+    --font-size-vico-h2-mobile: 1.5rem; /* 24px ✅ */
+    --font-size-vico-h2-desktop: 2rem; /* 32px ✅ */
+
+    --font-size-vico-h3-mobile: 1.25rem; /* 20px ✅ */
+    --font-size-vico-h3-desktop: 1.5rem; /* 24px ✅ */
+
+    --font-size-vico-h4-mobile: 1rem; /* 16px ✅ */
+    --font-size-vico-h4-desktop: 1.25rem; /* 20px ✅ */
+
+    --font-size-vico-h5: 1rem; /* 16px ✅ (all devices) */
+    --font-size-vico-h6: 1rem; /* 16px ✅ (all devices) */
+
+    /* Văn bản - Apple 4px Grid */
+    --font-size-vico-body-mobile: 1rem; /* 16px ✅ */
+    --font-size-vico-body-desktop: 1.25rem; /* 20px ✅ */
+
+    --font-size-vico-small-mobile: 0.75rem; /* 12px ✅ */
+    --font-size-vico-small-desktop: 1rem; /* 16px ✅ */
+
+    /* Đặc biệt */
+    --font-size-vico-display: 2.5rem; /* 40px ✅ */
+    --font-size-vico-btn-mobile: 1rem; /* 16px ✅ */
+    --font-size-vico-btn-desktop: 1.25rem; /* 20px ✅ */
+
+    /* ========================================
+       KHOẢNG CÁCH
+       ======================================== */
+    --spacing-vico-xs: 0.25rem; /* 4px */
+    --spacing-vico-sm: 0.5rem; /* 8px */
+    --spacing-vico-md: 1rem; /* 16px */
+    --spacing-vico-lg: 1.5rem; /* 24px */
+    --spacing-vico-xl: 2rem; /* 32px */
+    --spacing-vico-2xl: 3rem; /* 48px */
+    --spacing-vico-section: 4rem; /* 64px */
+
+    /* ========================================
+       BO TRÒN GÓC
+       ======================================== */
+    --radius-vico-sm: 0.25rem; /* 4px */
+    --radius-vico-md: 0.5rem; /* 8px */
+    --radius-vico-lg: 0.75rem; /* 12px */
+    --radius-vico-xl: 1rem; /* 16px */
+    --radius-vico-full: 9999px; /* Tròn hoàn toàn */
+    /* ========================================
+       BÓNG ĐỔ
+       ======================================== */
+    --shadow-vico-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-vico-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-vico-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-vico-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+        0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-vico-header: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-vico-dropdown: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    /* ========================================
+       HIỆU ỨNG CHUYỂN
+       ======================================== */
+    --transition-vico-fast: 150ms;
+    --transition-vico-normal: 300ms;
+    --transition-vico-slow: 500ms;
+
+    /* ========================================
+       THỨ TỰ LỚP
+       ======================================== */
+    --z-index-vico-dropdown: 1000;
+    --z-index-vico-sticky: 1020;
+    --z-index-vico-fixed: 1030;
+    --z-index-vico-modal: 1050;
+    --z-index-vico-tooltip: 1070;
+
+    /* ========================================
+       KÍCH THƯỚC
+       ======================================== */
+
+    /* Chiều rộng */
+    --width-vico-container: 1280px; /* Khung chứa chính */
+    --width-vico-search: 600px; /* Thanh tìm kiếm */
+    --width-vico-sidebar: 280px; /* Thanh bên */
+
+    /* Chiều cao */
+    --height-vico-header: 144px; /* Tổng chiều cao header */
+    --height-vico-header-top: 100px; /* Phần trên header (logo, search, actions) */
+    --height-vico-header-bottom: 44px; /* Phần dưới header (navigation menu) = 150px - 100px */
+    --height-vico-search: 54px; /* Thanh tìm kiếm */
+    --height-vico-input: 54px; /* Ô nhập liệu */
+    --height-vico-btn: 44px; /* Nút bấm */
+}
+
+/* ========================================
+   THIẾT LẬP CƠ BẢN
+   ======================================== */
+
+html {
+    /* ✅ FIXED: Base font-size KHÔNG ĐỔI - Tốt cho SEO */
+    font-size: 16px; /* CHUẨN: 16px trên mọi thiết bị */
+
+    /* ✅ STICKY FIX: Dùng clip thay hidden để không phá position:sticky */
+    /* overflow-x: hidden tạo containing block mới → phá sticky */
+    overflow-x: clip;
+
+    /* ✅ SCROLLBAR FIX: Reserve scrollbar space to prevent layout shift
+       when modals/drawers open. This is the modern approach used by
+       Stripe, Linear, Vercel for premium UI consistency. */
+    scrollbar-gutter: stable;
+}
+
+/* ❌ XÓA: Không cần thay đổi font-size theo breakpoint
+   Lý do: 
+   1. Không tốt cho SEO (Google prefer consistent base font)
+   2. Gây khó khăn trong tính toán rem
+   3. Responsive nên làm ở component level, không phải root
+*/
+
+/* ========================================
+   THIẾT LẬP CƠ BẢN CHO BODY
+   ======================================== */
+
+body {
+    font-family: var(--font-google-sans), system-ui, sans-serif;
+
+    /* ✅ FIXED: Use correct variable for Apple 4px grid */
+    font-size: var(--font-size-vico-body-mobile); /* 16px mobile */
+
+    color: var(--color-vico-text);
+    background-color: var(--color-vico-white);
+
+    /* ✅ FIXED: Tăng line-height cho tiếng Việt */
+    line-height: 1.5; /* ĐỂ KHÔNG BỊ LỆCH CHỮ TIẾNG VIỆT */
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility; /* Render text tốt hơn */
+
+    /* ✅ STICKY FIX: Dùng clip thay hidden, loại bỏ width:100vw */
+    /* width: 100vw gây scrollbar khi có scrollbar → không dùng */
+    overflow-x: clip;
+    max-width: 100%;
+}
+
+/* ✅ Desktop: 20px body text */
+/* ✅ Desktop: 20px body text */
+@media (min-width: 1040px) {
+    body {
+        font-size: var(
+            --font-size-vico-body-desktop
+        ) !important; /* 20px desktop */
+    }
+}
+
+/* ========================================
+   FIX CHO TIẾNG VIỆT - DIACRITICS
+   Đảm bảo chữ có dấu không bị cắt
+   ======================================== */
+
+* {
+    /* Đảm bảo line-height đủ cao cho dấu tiếng Việt */
+    line-height: inherit;
+
+    /* Vertical align để text center */
+    vertical-align: baseline;
+}
+
+/* Tất cả headings cần line-height cao hơn */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* line-height: 1.7 !important; Cao hơn để chứa dấu thoải mái */
+    padding-top: 0.15em; /* Tăng padding trên để dấu không bị cắt */
+    padding-bottom: 0.15em; /* Tăng padding dưới để cân bằng */
+}
+
+/* ========================================
+   PHẦN TỬ MEDIA - Hiển thị dạng khối
+   ======================================== */
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ========================================
+   LIÊN KẾT - Màu xanh Vicophar
+   ======================================== */
+
+a {
+    /* color: var(--color-vico-green); */
+    text-decoration: none;
+    transition: color var(--transition-vico-fast) ease;
+}
+
+/* ========================================
+   NÚT BẤM - Đặt lại kiểu dáng
+   ======================================== */
+
+button {
+    cursor: pointer;
+    border: none;
+    /* background: transparent; */
+    font-family: inherit;
+}
+
+/* ========================================
+   RESPONSIVE CSS VARIABLES
+   Cập nhật chiều cao header theo breakpoint
+   ======================================== */
+
+/* Mobile/Tablet: Header nhỏ gọn hơn */
+@media (max-width: 1023px) {
+    :root {
+        /* Header mobile: py-1.5 (12px) * 2 + search (42px) + gap-1.5 (6px) + logo/cart row (~40px) ≈ 110px */
+        --height-vico-header: 110px;
+    }
+}
+
+/* Desktop: Giữ nguyên chiều cao gốc */
+@media (min-width: 1024px) {
+    :root {
+        --height-vico-header: 144px; /* Top 100px + Bottom 44px */
+    }
+}
+
+/* ========================================
+   Ô NHẬP LIỆU - Kiểu dáng cơ bản
+   ======================================== */
+
+input,
+textarea,
+select {
+    font-family: inherit;
+    border: 1.5px solid var(--color-vico-gray-200);
+    /* Bỏ radius - và tự theo border-radius của ô input */
+    /* border-radius: var(--radius-vico-md); */
+    /* transition: all var(--transition-vico-fast) ease;
+     */
+}
+
+input::placeholder {
+    line-height: 1.6 !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: var(--color-vico-focus);
+    /* box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1); */
+}
+
+/* Ẩn nút xóa (dấu ❌) trong ô tìm kiếm */
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* ========================================
+   DANH SÁCH - Xóa kiểu dáng mặc định
+   ======================================== */
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ========================================
+   KIỂU DÁNG FOCUS - Khả năng tiếp cận
+   ======================================== */
+
+:focus-visible {
+    outline: 2px solid var(--color-vico-focus);
+    outline-offset: 2px;
+}
+
+/* ========================================
+   VĂN BẢN ĐƯỢC CHỌN - Đánh dấu
+   ======================================== */
+
+::selection {
+    background-color: var(--color-vico-green);
+    color: white;
+}
+
+/* ========================================
+   THANH CUỘN - Premium Overlay Style
+   Modern scrollbar styling for premium UI feel
+   (Apple, Stripe, Vercel inspired)
+   ======================================== */
+
+/* Webkit browsers (Chrome, Safari, Edge) - Premium overlay style */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.35);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+/* Firefox - Thin overlay scrollbar */
+@supports (scrollbar-color: auto) {
+    html {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+    }
+}
+
+/* ========================================
+   UTILITY - Ẩn scrollbar
+   ======================================== */
+
+/* Class để ẩn scrollbar hoàn toàn nhưng vẫn giữ scroll functionality */
+.scrollbar-hide {
+    -ms-overflow-style: none !important; /* IE and Edge */
+    scrollbar-width: none !important; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none !important; /* Chrome, Safari, Opera */
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* ========================================
+   OLD MEDIA QUERIES REMOVED
+   These were overriding the Apple 4px grid variables
+   with incorrect values (17px, 18px instead of 20px)
+   ======================================== */
+
+/* ========================================
+   TAILWIND UTILITIES - APPLE 4PX GRID
+   Responsive typography system theo chuẩn Apple
+   ======================================== */
+
+@layer utilities {
+    /* ============================================
+       HEADINGS (H1-H6) - APPLE 4PX GRID
+       ============================================ */
+
+    /* H1 - Hero Title */
+    .text-h1 {
+        font-size: 2rem; /* 32px mobile */
+        /* line-height: 1.2; */
+        font-weight: 700;
+    }
+
+    @media (min-width: 768px) {
+        .text-h1 {
+            font-size: 2.5rem; /* 40px tablet/desktop */
+            line-height: 1.2;
+        }
+    }
+
+    /* H2 - Section Title */
+    .text-h2 {
+        font-size: 1.5rem; /* 24px mobile */
+        line-height: 1.25;
+        font-weight: 700;
+    }
+
+    @media (min-width: 768px) {
+        .text-h2 {
+            font-size: 2rem; /* 32px tablet/desktop */
+        }
+    }
+
+    /* H3 - Subsection Title */
+    .text-h3 {
+        font-size: 1.25rem; /* 20px mobile */
+        line-height: 1.25;
+        font-weight: 700;
+    }
+
+    @media (min-width: 768px) {
+        .text-h3 {
+            font-size: 1.5rem; /* 24px tablet/desktop */
+        }
+    }
+
+    /* H4 - Card Title */
+    .text-h4 {
+        font-size: 1rem; /* 16px mobile */
+        line-height: 1.375;
+        font-weight: 600;
+    }
+
+    @media (min-width: 768px) {
+        .text-h4 {
+            font-size: 1.25rem; /* 20px tablet/desktop */
+        }
+    }
+
+    /* H5 / H6 - Small Headings */
+    .text-h5,
+    .text-h6 {
+        font-size: 1rem; /* 16px all devices */
+        line-height: 1.375;
+        font-weight: 600;
+    }
+
+    /* ============================================
+       BODY TEXT - APPLE 4PX GRID
+       ============================================ */
+
+    /* Body - Standard paragraphs, lists, etc. */
+    .text-body {
+        font-size: 1rem; /* 16px mobile */
+        line-height: 1.5;
+        font-weight: 400;
+    }
+
+    @media (min-width: 768px) {
+        .text-body {
+            font-size: 1.25rem; /* 20px tablet/desktop */
+        }
+    }
+
+    /* Small - Captions, meta info, badges */
+    .text-small {
+        font-size: 0.75rem; /* 12px mobile */
+        line-height: 1.5;
+        font-weight: 400;
+    }
+
+    @media (min-width: 768px) {
+        .text-small {
+            font-size: 1rem; /* 16px tablet/desktop */
+        }
+    }
+
+    /* ============================================
+       UI ELEMENTS - APPLE 4PX GRID
+       ============================================ */
+
+    /* Button / CTA */
+    .text-button {
+        font-size: 1rem; /* 16px mobile */
+        line-height: 1;
+        font-weight: 600;
+    }
+
+    @media (min-width: 768px) {
+        .text-button {
+            font-size: 1.25rem; /* 20px tablet/desktop */
+        }
+    }
+
+    /* Input / Form fields */
+    .text-input {
+        font-size: 1rem; /* 16px mobile - prevents iOS zoom */
+        line-height: 1.5;
+        font-weight: 400;
+    }
+
+    @media (min-width: 768px) {
+        .text-input {
+            font-size: 1.25rem; /* 20px tablet/desktop */
+        }
+    }
+
+    /* ============================================
+       Z-INDEX LAYERS - PARALLAX EFFECT
+       Dùng cho hiệu ứng sticky parallax trên trang chủ
+       ============================================ */
+
+    /* Layer cơ bản - z-index thấp nhất (sticky banner) */
+    .z-layer-base {
+        position: relative;
+        z-index: 0;
+    }
+
+    /* Layer content - nằm trên banner sticky */
+    .z-layer-content {
+        position: relative;
+        z-index: 10;
+    }
+
+    /* Layer section - các section cuộn đè lên banner */
+    .z-layer-section {
+        position: relative;
+        z-index: 20;
+    }
+}

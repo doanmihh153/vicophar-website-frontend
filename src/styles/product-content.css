@@ -1,0 +1,390 @@
+/**
+ * ============================================================================
+ * PRODUCT CONTENT STYLING - Standard CSS version
+ * ============================================================================
+ *
+ * CSS cho nội dung chi tiết sản phẩm (TipTap content)
+ * Style thuần CSS, cấu trúc tương tự article.css
+ *
+ * ============================================================================
+ */
+
+/* Container chính */
+.product-content > * + * {
+    margin-top: 1rem; /* space-y-4 */
+}
+
+/* ============================================================================
+   HEADINGS - Tiêu đề
+   ============================================================================ */
+
+/* H1: Tiêu đề chính (không dùng trong product content) */
+.product-content h1 {
+    font-size: 1.875rem; /* text-3xl */
+    line-height: 1.25; /* leading-tight */
+    font-weight: 700;
+    color: var(--color-vico-gray-900);
+    margin-bottom: 1.5rem; /* mb-6 */
+}
+
+@media (min-width: 1280px) {
+    .product-content h1 {
+        font-size: 2.25rem; /* xl:text-4xl */
+    }
+}
+
+/* H2: Tiêu đề mục lớn */
+.product-content h2 {
+    font-size: 1.25rem; /* text-xl */
+    line-height: 1.25;
+    font-weight: 700;
+    color: var(--color-vico-green);
+    margin-top: 1.5rem; /* mt-6 */
+    margin-bottom: 0.75rem; /* mb-3 */
+}
+
+@media (min-width: 1280px) {
+    .product-content h2 {
+        font-size: 1.5rem; /* xl:text-2xl */
+    }
+}
+
+/* H3: Tiêu đề mục nhỏ */
+.product-content h3 {
+    font-size: 1.125rem; /* text-lg */
+    line-height: 1.25;
+    font-weight: 600;
+    /* Sử dụng biến màu nếu có, hoặc fallback */
+    color: var(--color-vico-gray-800, #1f2937);
+    margin-top: 1rem; /* mt-4 */
+    margin-bottom: 0.5rem; /* mb-2 */
+}
+
+@media (min-width: 1280px) {
+    .product-content h3 {
+        font-size: 1.25rem; /* xl:text-xl */
+    }
+}
+
+/* H4-H6: Tiêu đề phụ */
+.product-content h4,
+.product-content h5,
+.product-content h6 {
+    font-size: 1rem; /* text-base */
+    font-weight: 600;
+    color: var(--color-vico-gray-800, #1f2937);
+    margin-top: 0.75rem; /* mt-3 */
+    margin-bottom: 0.5rem; /* mb-2 */
+}
+
+/* ============================================================================
+   PARAGRAPH - Đoạn văn
+   ============================================================================ */
+
+.product-content p {
+    font-size: 1rem; /* text-base */
+    color: var(--color-vico-gray-700, #374151);
+    line-height: 1.625; /* leading-relaxed */
+    margin-bottom: 0.75rem; /* mb-3 */
+}
+
+@media (min-width: 1024px) {
+    .product-content p {
+        font-size: 1.25rem; /* 20px */
+    }
+}
+
+/* ============================================================================
+   LISTS - Danh sách
+   ============================================================================ */
+
+/* UL: Danh sách bullet */
+.product-content ul {
+    list-style-type: disc;
+    padding-left: 1.5rem; /* pl-6 */
+    margin-bottom: 0.75rem; /* mb-3 */
+}
+
+.product-content ul > * + * {
+    margin-top: 0.25rem; /* space-y-1 */
+}
+
+/* OL: Danh sách số */
+.product-content ol {
+    list-style-type: decimal;
+    padding-left: 1.5rem; /* pl-6 */
+    margin-bottom: 0.75rem; /* mb-3 */
+}
+
+.product-content ol > * + * {
+    margin-top: 0.25rem; /* space-y-1 */
+}
+
+/* LI: Mục trong danh sách */
+.product-content li {
+    font-size: 1rem; /* text-base */
+    color: var(--color-vico-gray-700, #374151);
+    line-height: 1.625; /* leading-relaxed */
+}
+
+@media (min-width: 1024px) {
+    .product-content li {
+        font-size: 1.125rem; /* 18px */
+    }
+}
+
+/* ============================================================================
+   IMAGES - Hình ảnh
+   ============================================================================ */
+
+.product-content figure {
+    margin: 1rem 0; /* my-4 */
+}
+
+.product-content figure img {
+    border-radius: 0.75rem; /* rounded-xl */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.product-content figcaption {
+    font-size: 0.875rem; /* text-sm */
+    color: var(--color-vico-gray-600);
+    text-align: center;
+    margin-top: 0.5rem; /* mt-2 */
+    font-style: italic;
+}
+
+/* ============================================================================
+   BLOCKQUOTE - Trích dẫn
+   ============================================================================ */
+
+.product-content blockquote {
+    border-left: 4px solid var(--color-vico-green);
+    padding-left: 1rem; /* pl-4 */
+    padding-top: 0.5rem; /* py-2 */
+    padding-bottom: 0.5rem;
+    margin: 1rem 0; /* my-4 */
+    font-style: italic;
+    color: var(--color-vico-gray-700, #374151);
+    background-color: var(--color-vico-gray-50);
+    border-radius: 0 0.5rem 0.5rem 0; /* rounded-r-lg */
+}
+
+.product-content blockquote p {
+    margin-bottom: 0;
+}
+
+/* ============================================================================
+   COLORED BLOCKQUOTE - Trích dẫn có màu
+   ============================================================================ */
+
+/* Base styles */
+.product-content .blockquote-warn,
+.product-content .blockquote-error,
+.product-content .blockquote-success {
+    border-left-width: 4px;
+    border-left-style: solid;
+    padding-left: 1rem;
+    padding-top: 0.75rem; /* py-3 */
+    padding-bottom: 0.75rem;
+    margin: 1rem 0;
+    border-top-right-radius: 0.5rem; /* rounded-r-lg */
+    border-bottom-right-radius: 0.5rem;
+    font-style: normal; /* not-italic */
+}
+
+.product-content .blockquote-warn p,
+.product-content .blockquote-error p,
+.product-content .blockquote-success p {
+    margin-bottom: 0;
+}
+
+/* WARN - Cảnh báo */
+.product-content .blockquote-warn {
+    border-color: var(--color-vico-orange);
+    background-color: #fffbeb; /* bg-amber-50 */
+}
+
+.product-content .blockquote-warn p {
+    color: #78350f; /* text-amber-900 */
+}
+
+.product-content .blockquote-warn::before {
+    content: "⚠️ ";
+}
+
+/* ERROR - Lỗi */
+.product-content .blockquote-error {
+    border-color: var(--color-vico-red);
+    background-color: var(--color-vico-red-light);
+}
+
+.product-content .blockquote-error p {
+    color: var(--color-vico-red-dark);
+}
+
+.product-content .blockquote-error::before {
+    content: "❌ ";
+}
+
+/* SUCCESS - Thành công */
+.product-content .blockquote-success {
+    border-color: var(--color-vico-green);
+    background-color: var(--color-vico-green-light);
+}
+
+.product-content .blockquote-success p {
+    color: #14532d; /* text-green-900 */
+}
+
+.product-content .blockquote-success::before {
+    content: "✅ ";
+}
+
+/* ============================================================================
+   LINKS - Đường dẫn
+   ============================================================================ */
+
+.product-content a {
+    color: var(--color-vico-green);
+    text-decoration: underline;
+    transition: color 0.15s;
+}
+
+.product-content a:hover {
+    color: var(--color-vico-green-dark);
+}
+
+/* ============================================================================
+   TEXT FORMATTING - Định dạng văn bản
+   ============================================================================ */
+
+.product-content strong {
+    font-weight: 700;
+    color: var(--color-vico-gray-900);
+}
+
+.product-content em {
+    font-style: italic;
+}
+
+/* ============================================================================
+   HORIZONTAL RULE - Đường kẻ ngang
+   ============================================================================ */
+
+.product-content hr {
+    margin: 1.5rem 0; /* my-6 */
+    border: 0;
+    border-top: 1px solid var(--color-vico-gray-200);
+}
+
+/* ============================================================================
+   CODE - Mã nguồn
+   ============================================================================ */
+
+.product-content code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        monospace;
+    background-color: var(--color-vico-gray-100);
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem; /* text-sm */
+    color: var(--color-vico-green-dark);
+}
+
+.product-content pre {
+    background-color: var(--color-vico-gray-900);
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1rem 0; /* my-4 */
+}
+
+.product-content pre code {
+    background-color: transparent;
+    padding: 0;
+    color: inherit;
+    font-size: 0.875rem;
+}
+
+/* ============================================================================
+   TABLES - Bảng
+   ============================================================================ */
+
+.product-content .table-wrapper {
+    overflow-x: auto;
+    margin: 1rem 0;
+    border-radius: 0.75rem; /* rounded-xl */
+}
+
+.product-content table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem; /* text-sm */
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background: var(--color-vico-green-light);
+}
+
+.product-content thead {
+    background-color: var(--color-vico-green);
+    color: white;
+}
+
+.product-content thead th {
+    padding: 0.75rem; /* p-3 */
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.875rem;
+    border-right: 2px solid var(--color-vico-white);
+}
+
+.product-content thead th:last-child {
+    border-right: none;
+}
+
+.product-content tbody tr {
+    border-bottom: 2px solid var(--color-vico-white);
+}
+
+.product-content tbody td {
+    padding: 0.75rem; /* p-3 */
+    line-height: 1.375; /* leading-snug */
+    border-right: 2px solid var(--color-vico-white);
+}
+
+.product-content tbody td:last-child {
+    border-right: none;
+}
+
+/* ============================================================================
+   SECTIONS - Product sections
+   ============================================================================ */
+
+.product-content .product-section {
+    margin-bottom: 1rem;
+}
+
+.product-content .product-section-heading {
+    font-size: 1.125rem; /* text-lg */
+    font-weight: 600;
+    color: var(--color-vico-gray-800, #1f2937);
+    margin-bottom: 0.5rem;
+}
+
+/* ============================================================================
+   IFRAME / VIDEO
+   ============================================================================ */
+
+.product-content iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 0.75rem; /* rounded-xl */
+    margin: 1rem 0;
+}

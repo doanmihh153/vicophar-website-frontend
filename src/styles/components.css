@@ -1,0 +1,454 @@
+/**
+ * ============================================================================
+ * COMPONENTS STYLES - VICOPHAR VIETNAM
+ * ============================================================================
+ * Các class CSS tái sử dụng cho toàn bộ website
+ * Sử dụng CSS thuần với CSS variables từ base.css
+ * ============================================================================
+ */
+
+/* ========================================
+   CONTAINER - Khung chứa chính (Center)
+   ======================================== */
+
+/**
+ * Container chính - căn giữa nội dung với smart padding
+ * Max-width: 1280px (--width-vico-container)
+ * 
+ * CHIẾN LƯỢC PADDING:
+ * - Desktop ≥1280px: KHÔNG padding (full width 1280px)
+ * - Desktop nhỏ (1040-1279px): 24px padding
+ * - Tablet (768-1039px): 20px padding
+ * - Mobile (<768px): 16px padding
+ * 
+ * → Chỉ thêm padding khi cần thiết để tránh sát mép
+ */
+.vico-container {
+    width: 100%;
+    max-width: var(--width-vico-container);
+    margin-left: auto;
+    margin-right: auto;
+    /* Không padding mặc định - để desktop ≥1280px full width */
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Mobile: 16px padding khi màn hình < 1280px */
+@media (max-width: 1279px) {
+    .vico-container {
+        padding-left: 1rem; /* 16px */
+        padding-right: 1rem;
+    }
+}
+
+/* Tablet: tăng lên 20px */
+@media (min-width: 768px) and (max-width: 1279px) {
+    .vico-container {
+        padding-left: 1.25rem; /* 20px */
+        padding-right: 1.25rem;
+    }
+}
+
+/* Desktop nhỏ: tăng lên 24px */
+@media (min-width: 1040px) and (max-width: 1279px) {
+    .vico-container {
+        padding-left: 1.5rem; /* 24px */
+        padding-right: 1.5rem;
+    }
+}
+
+/* Container không padding - dùng cho full-width sections */
+.vico-container-no-padding {
+    width: 100%;
+    max-width: var(--width-vico-container);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ========================================
+   SECTION - Khoảng cách giữa các sections
+   ======================================== */
+
+/**
+ * Section spacing - khoảng cách giữa các phần
+ * Padding top/bottom: 64px (--spacing-vico-section)
+ */
+.vico-section {
+    padding-top: var(--spacing-vico-section);
+    padding-bottom: var(--spacing-vico-section);
+}
+
+/* Section với background */
+.vico-section-bg {
+    padding-top: var(--spacing-vico-section);
+    padding-bottom: var(--spacing-vico-section);
+    background-color: var(--color-vico-gray-50);
+}
+
+/* ========================================
+   TYPOGRAPHY - Kiểu chữ chuẩn
+   ======================================== */
+
+/* Tiêu đề H1 - Trang chủ */
+.vico-heading-1 {
+    font-size: var(--font-size-vico-h1);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-vico-text);
+}
+
+/* Tiêu đề H2 - Sections */
+.vico-heading-2 {
+    font-size: var(--font-size-vico-h2);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-vico-text);
+}
+
+/* Tiêu đề H3 - Sub-sections */
+.vico-heading-3 {
+    font-size: var(--font-size-vico-h3);
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--color-vico-text);
+}
+
+/* Tiêu đề H4 - Cards */
+.vico-heading-4 {
+    font-size: var(--font-size-vico-h4);
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--color-vico-text);
+}
+
+/* Văn bản body */
+.vico-body {
+    font-size: var(--font-size-vico-base);
+    line-height: 1.6;
+    color: var(--color-vico-text-secondary);
+}
+
+/* Văn bản nhỏ */
+.vico-text-sm {
+    font-size: var(--font-size-vico-sm);
+    line-height: 1.5;
+    color: var(--color-vico-text-light);
+}
+
+/* ========================================
+   BUTTONS - Nút bấm chuẩn
+   ======================================== */
+
+/* Nút chính - Màu xanh Vicophar */
+.vico-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.25rem; /* Mobile: smaller padding */
+    height: var(--height-vico-btn);
+    background-color: var(--color-vico-green);
+    color: white;
+    font-weight: 500;
+    font-size: 0.875rem; /* Mobile: 14px */
+    border-radius: var(--radius-vico-full);
+    transition: all var(--transition-vico-fast) ease;
+    cursor: pointer;
+    border: none;
+}
+
+@media (min-width: 768px) {
+    .vico-btn-primary {
+        padding: 0.75rem 1.5rem; /* Tablet/Desktop: larger padding */
+        font-size: 1rem; /* Tablet/Desktop: 16px */
+    }
+}
+
+.vico-btn-primary:hover {
+    background-color: var(--color-vico-green-hover);
+}
+
+.vico-btn-primary:active {
+    transform: scale(0.95);
+}
+
+/* Nút phụ - Màu đỏ */
+.vico-btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.25rem; /* Mobile: smaller padding */
+    height: var(--height-vico-btn);
+    background-color: var(--color-vico-red);
+    color: white;
+    font-weight: 500;
+    font-size: 0.875rem; /* Mobile: 14px */
+    border-radius: var(--radius-vico-full);
+    transition: all var(--transition-vico-fast) ease;
+    cursor: pointer;
+    border: none;
+}
+
+@media (min-width: 768px) {
+    .vico-btn-secondary {
+        padding: 0.75rem 1.5rem; /* Tablet/Desktop: larger padding */
+        font-size: 1rem; /* Tablet/Desktop: 16px */
+    }
+}
+
+.vico-btn-secondary:hover {
+    opacity: 0.9;
+}
+
+.vico-btn-secondary:active {
+    transform: scale(0.95);
+}
+
+/* Nút outline */
+.vico-btn-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.25rem; /* Mobile: smaller padding */
+    height: var(--height-vico-btn);
+    background-color: transparent;
+    border: 2px solid var(--color-vico-green);
+    color: var(--color-vico-green);
+    font-weight: 500;
+    font-size: 0.875rem; /* Mobile: 14px */
+    border-radius: var(--radius-vico-full);
+    transition: all var(--transition-vico-fast) ease;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .vico-btn-outline {
+        padding: 0.75rem 1.5rem; /* Tablet/Desktop: larger padding */
+        font-size: 1rem; /* Tablet/Desktop: 16px */
+    }
+}
+
+.vico-btn-outline:hover {
+    background-color: var(--color-vico-green);
+    color: white;
+}
+
+.vico-btn-outline:active {
+    transform: scale(0.95);
+}
+
+/* ========================================
+   CARDS - Thẻ sản phẩm, bài viết
+   ======================================== */
+
+/* Card cơ bản */
+.vico-card {
+    background-color: white;
+    border-radius: var(--radius-vico-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-vico-md);
+    transition: all var(--transition-vico-normal) ease;
+}
+
+.vico-card:hover {
+    box-shadow: var(--shadow-vico-lg);
+}
+
+/* Card sản phẩm */
+.vico-product-card {
+    background-color: white;
+    border-radius: var(--radius-vico-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-vico-md);
+    transition: all var(--transition-vico-normal) ease;
+    cursor: pointer;
+}
+
+.vico-product-card:hover {
+    box-shadow: var(--shadow-vico-lg);
+    transform: translateY(-4px);
+}
+
+/* ========================================
+   CONTENT FROM TIPTAP - Nội dung HTML
+   ======================================== */
+
+/**
+ * Class wrapper cho nội dung HTML từ TipTap editor
+ * Áp dụng styling cho các thẻ HTML chuẩn
+ */
+.vico-tiptap-content {
+    font-size: var(--font-size-vico-base);
+    line-height: 1.6;
+    color: var(--color-vico-text-secondary);
+}
+
+.vico-tiptap-content h1 {
+    font-size: var(--font-size-vico-h1);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-vico-text);
+    margin-bottom: 1rem;
+}
+
+.vico-tiptap-content h2 {
+    font-size: var(--font-size-vico-h2);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-vico-text);
+    margin-bottom: 1rem;
+}
+
+.vico-tiptap-content h3 {
+    font-size: var(--font-size-vico-h3);
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--color-vico-text);
+    margin-bottom: 0.75rem;
+}
+
+.vico-tiptap-content h4 {
+    font-size: var(--font-size-vico-h4);
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--color-vico-text);
+    margin-bottom: 0.75rem;
+}
+
+.vico-tiptap-content p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.vico-tiptap-content ul,
+.vico-tiptap-content ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.vico-tiptap-content ul {
+    list-style-type: disc;
+}
+
+.vico-tiptap-content ol {
+    list-style-type: decimal;
+}
+
+.vico-tiptap-content li {
+    margin-bottom: 0.5rem;
+}
+
+.vico-tiptap-content a {
+    color: var(--color-vico-green);
+    text-decoration: underline;
+    transition: color var(--transition-vico-fast) ease;
+}
+
+.vico-tiptap-content a:hover {
+    color: var(--color-vico-green-hover);
+}
+
+.vico-tiptap-content strong {
+    font-weight: 700;
+}
+
+.vico-tiptap-content em {
+    font-style: italic;
+}
+
+.vico-tiptap-content blockquote {
+    border-left: 4px solid var(--color-vico-green);
+    padding-left: 1rem;
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+/* ========================================
+   UTILITIES - Tiện ích
+   ======================================== */
+
+/* Ẩn trên mobile */
+.vico-hide-mobile {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .vico-hide-mobile {
+        display: block;
+    }
+}
+
+/* Ẩn trên desktop */
+.vico-hide-desktop {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .vico-hide-desktop {
+        display: none;
+    }
+}
+
+/* Text gradient - Màu xanh Vicophar */
+.vico-text-gradient {
+    background: linear-gradient(
+        to right,
+        var(--color-vico-green-dark),
+        var(--color-vico-green)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+/* Text gradient - Màu đỏ Vicophar (cho H1 Story page) */
+.vico-text-gradient-red {
+    background: linear-gradient(
+        270deg,
+        var(--color-vico-red-gradient-start) 0%,
+        var(--color-vico-red-gradient-end) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+/* ========================================
+   ARTICLE PREVIEW TOOLTIP - Radix HoverCard
+   ======================================== */
+
+/* Animation khi tooltip xuất hiện */
+@keyframes slideUpAndFade {
+    from {
+        opacity: 0;
+        transform: translateY(4px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDownAndFade {
+    from {
+        opacity: 0;
+        transform: translateY(-4px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animation cho HoverCard content */
+.article-preview-tooltip {
+    animation: slideUpAndFade 200ms ease-out;
+}
+
+.article-preview-tooltip[data-side="bottom"] {
+    animation: slideDownAndFade 200ms ease-out;
+}

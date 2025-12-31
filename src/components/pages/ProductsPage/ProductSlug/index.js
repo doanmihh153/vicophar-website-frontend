@@ -1,0 +1,11 @@
+export { default as ProductSlugView } from "./ProductSlugView";
+export { default as ProductBreadcrumb } from "./ProductBreadcrumb";
+export { default as ProductGallery } from "./ProductGallery";
+export { default as ProductInfoTable } from "./ProductInfoTable";
+export { default as ProductActionSidebar } from "./ProductActionSidebar";
+export { default as ProductDescription } from "./ProductDescription";
+export { default as ProductWarningBox } from "./ProductWarningBox";
+export { default as ProductContentSidebar } from "./ProductContentSidebar";
+export { default as ProductFAQ } from "./ProductFAQ";
+export { default as ProductReviews } from "./ProductReviews";
+export { default as RelatedProducts } from "./RelatedProducts";
