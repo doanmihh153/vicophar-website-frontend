@@ -1,10 +1,11 @@
 # Vicophar Vietnam - Premium Frontend Architecture - REMAKE - NO CLEAN CODE
 
-![Next.js 14+](https://img.shields.io/badge/Next.js%2014+-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Next.js 16+](https://img.shields.io/badge/Next.js%2014+-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Performance](https://img.shields.io/badge/Performance-98%2B-success?style=for-the-badge&logo=google-lighthouse&logoColor=white)
 
-Chào mừng đến với **Source Code Frontend Chính Thức** của [Vicophar Vietnam](https://vicophar.com.vn).
+Chào mừng đến với **Source Code Frontend** của [Vicophar Vietnam](https://vicophar.com).
+Đây chỉ là source base, không clean code, clone về máy vẫn chạy bình thường. Để bảo mật dữ liệu thì source clean sẽ để private.
 Dự án được thiết kế theo tư duy **Product-First**, tập trung tối đa vào Trải nghiệm người dùng (UX), Hiệu năng (Performance) và khả năng mở rộng (Scalability).
 
 ---
