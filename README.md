@@ -6,7 +6,7 @@
 
 Chào mừng đến với **Source Code Frontend** của [Vicophar Vietnam](https://vicophar.com).
 Đây chỉ là source base, không clean code, clone về máy vẫn chạy bình thường. Để bảo mật dữ liệu thì source clean sẽ để private.
-Dự án được thiết kế theo tư duy **Product-First**, tập trung tối đa vào Trải nghiệm người dùng (UX), Hiệu năng (Performance) và khả năng mở rộng (Scalability).
+Dự án được thiết kế theo tư duy **Product-First**, tập trung tối đa vào Trải nghiệm người dùng (UX), Hiệu năng (Performance) và khả năng mở rộng (Scalability). Được viết bằng Javascript - và mockdata khá rối, không an toàn về dữ liệu. Source code chính được viết và chuyển từ Javascript sang Typescript.
 
 ---
 
